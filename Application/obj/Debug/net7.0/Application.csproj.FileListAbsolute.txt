@@ -1,0 +1,17 @@
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Application.deps.json
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Application.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Application.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Domain.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Persistence.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Domain.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\bin\Debug\net7.0\Persistence.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\refint\Application.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\Application.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Application\obj\Debug\net7.0\ref\Application.dll

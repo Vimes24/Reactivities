@@ -1,0 +1,12 @@
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\bin\Debug\net7.0\Domain.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Domain\obj\Debug\net7.0\ref\Domain.dll

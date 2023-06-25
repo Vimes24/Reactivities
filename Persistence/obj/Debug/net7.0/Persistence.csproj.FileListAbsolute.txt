@@ -1,0 +1,15 @@
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\bin\Debug\net7.0\Persistence.deps.json
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\bin\Debug\net7.0\Persistence.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\bin\Debug\net7.0\Persistence.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\bin\Debug\net7.0\Domain.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\bin\Debug\net7.0\Domain.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\Persistence.pdb
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\Persistence\obj\Debug\net7.0\ref\Persistence.dll
