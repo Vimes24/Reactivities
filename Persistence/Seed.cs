@@ -52,7 +52,7 @@ namespace Persistence
                     Title = "Nadchodzące wydarzenie 2",
                     Date = DateTime.UtcNow.AddMonths(2),
                     Description = "Wydarzenie za 2 miesiące",
-                    Category = "Sport",
+                    Category = "Kultura",
                     City = "Rzeszów",
                     Venue = "Stadion",
                 },
@@ -62,9 +62,9 @@ namespace Persistence
                     Title = "Nadchodzące wydarzenie 3",
                     Date = DateTime.UtcNow.AddMonths(3),
                     Description = "Wydarzenie za 3 miesiące",
-                    Category = "Alkohol",
+                    Category = "Podróż",
                     City = "Poznań",
-                    Venue = "Bar",
+                    Venue = "Wyspa Malta",
                 },
 
                 new Activity
@@ -72,9 +72,9 @@ namespace Persistence
                     Title = "Nadchodzące wydarzenie 4",
                     Date = DateTime.UtcNow.AddMonths(4),
                     Description = "Wydarzenie za 4 miesiące",
-                    Category = "Alkohol",
+                    Category = "Muzyka",
                     City = "Poznań",
-                    Venue = "Bar",
+                    Venue = "Klub Bajka",
                 },
 
                 new Activity
@@ -82,7 +82,7 @@ namespace Persistence
                     Title = "Nadchodzące wydarzenie 5",
                     Date = DateTime.UtcNow.AddMonths(5),
                     Description = "Wydarzenie za 5 miesięcy",
-                    Category = "Alkohol",
+                    Category = "Jedzenie",
                     City = "Poznań",
                     Venue = "Bar",
                 },
@@ -92,9 +92,9 @@ namespace Persistence
                     Title = "Nadchodzące wydarzenie 6",
                     Date = DateTime.UtcNow.AddMonths(6),
                     Description = "Wydarzenie za 6 miesięcy",
-                    Category = "Alkohol",
+                    Category = "Film",
                     City = "Poznań",
-                    Venue = "Bar",
+                    Venue = "Kino Zorza",
                 }
             };
 
