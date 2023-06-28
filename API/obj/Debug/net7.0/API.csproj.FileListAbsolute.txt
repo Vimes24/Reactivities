@@ -78,3 +78,6 @@ E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\De
 E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\MediatR.dll
 E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\MediatR.Contracts.dll
 E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\FluentValidation.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+E:\Studia\WSiZ\VI semestr\Szkolenie_techniczne_3\projekt\Reactivities\API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
