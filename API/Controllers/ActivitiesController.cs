@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    //[AllowAnonymous]
+    [AllowAnonymous]
     public class ActivitiesController : BaseApiController
     {
         [HttpGet]

@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    [AllowAnonymous]
     [ApiController]
     [Route("api/controller")]
     public class AccountController : ControllerBase
@@ -71,7 +72,7 @@ namespace API.Controllers
 
             return BadRequest("Problem registering user");
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
