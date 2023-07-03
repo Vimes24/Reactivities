@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Identity;
 
@@ -9,113 +5,255 @@ namespace Persistence
 {
     public class Seed
     {
-        public static async Task SeedData(DataContext context, UserManager<AppUser> userManager)
+        public static async Task SeedData(DataContext context,
+            UserManager<AppUser> userManager)
         {
-            if(!userManager.Users.Any())
+            if (!userManager.Users.Any() && !context.Activities.Any())
             {
                 var users = new List<AppUser>
                 {
-                    new AppUser{DisplayName = "Bob", UserName = "bob", Email = "bob@test.com"},
-                    new AppUser{DisplayName = "Tom", UserName = "tom", Email =  "tom@test.com"},
-                    new AppUser{DisplayName = "Jane", UserName = "jane", Email = "jane@test.com"},
+                    new AppUser
+                    {
+                        DisplayName = "Bob",
+                        UserName = "bob",
+                        Email = "bob@test.com"
+                    },
+                    new AppUser
+                    {
+                        DisplayName = "Jane",
+                        UserName = "jane",
+                        Email = "jane@test.com"
+                    },
+                    new AppUser
+                    {
+                        DisplayName = "Tom",
+                        UserName = "tom",
+                        Email = "tom@test.com"
+                    },
                 };
 
                 foreach (var user in users)
                 {
                     await userManager.CreateAsync(user, "Pa$$w0rd");
                 }
+
+                var activities = new List<Activity>
+                {
+                    new Activity
+                    {
+                        Title = "Past Activity 1",
+                        Date = DateTime.UtcNow.AddMonths(-2),
+                        Description = "Activity 2 months ago",
+                        Category = "Alkohol",
+                        City = "London",
+                        Venue = "Pub",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = true
+                            }
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Past Activity 2",
+                        Date = DateTime.UtcNow.AddMonths(-1),
+                        Description = "Activity 1 month ago",
+                        Category = "Kultura",
+                        City = "Paris",
+                        Venue = "The Louvre",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = true
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = false
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 1",
+                        Date = DateTime.UtcNow.AddMonths(1),
+                        Description = "Activity 1 month in future",
+                        Category = "Muzyka",
+                        City = "London",
+                        Venue = "Wembly Stadium",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[2],
+                                IsHost = true
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = false
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 2",
+                        Date = DateTime.UtcNow.AddMonths(2),
+                        Description = "Activity 2 months in future",
+                        Category = "Jedzenie",
+                        City = "London",
+                        Venue = "Jamies Italian",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = true
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[2],
+                                IsHost = false
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 3",
+                        Date = DateTime.UtcNow.AddMonths(3),
+                        Description = "Activity 3 months in future",
+                        Category = "Alkohol",
+                        City = "London",
+                        Venue = "Pub",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = true                            
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = false                            
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 4",
+                        Date = DateTime.UtcNow.AddMonths(4),
+                        Description = "Activity 4 months in future",
+                        Category = "Kultura",
+                        City = "London",
+                        Venue = "British Museum",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = true                            
+                            }
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 5",
+                        Date = DateTime.UtcNow.AddMonths(5),
+                        Description = "Activity 5 months in future",
+                        Category = "Alkohol",
+                        City = "London",
+                        Venue = "Punch and Judy",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = true                            
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = false                            
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 6",
+                        Date = DateTime.UtcNow.AddMonths(6),
+                        Description = "Activity 6 months in future",
+                        Category = "Muzyka",
+                        City = "London",
+                        Venue = "O2 Arena",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[2],
+                                IsHost = true                            
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = false                            
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 7",
+                        Date = DateTime.UtcNow.AddMonths(7),
+                        Description = "Activity 7 months in future",
+                        Category = "Podróż",
+                        City = "Berlin",
+                        Venue = "All",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[0],
+                                IsHost = true                            
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[2],
+                                IsHost = false                            
+                            },
+                        }
+                    },
+                    new Activity
+                    {
+                        Title = "Future Activity 8",
+                        Date = DateTime.UtcNow.AddMonths(8),
+                        Description = "Activity 8 months in future",
+                        Category = "Film",
+                        City = "London",
+                        Venue = "Pub",
+                        Attendees = new List<ActivityAttendee>
+                        {
+                            new ActivityAttendee
+                            {
+                                AppUser = users[2],
+                                IsHost = true                            
+                            },
+                            new ActivityAttendee
+                            {
+                                AppUser = users[1],
+                                IsHost = false                            
+                            },
+                        }
+                    }
+                };
+
+                await context.Activities.AddRangeAsync(activities);
+                await context.SaveChangesAsync();
             }
-
-            if (context.Activities.Any())
-            {
-                return;
-            }
-
-            var activities = new List<Activity>
-            {
-                new Activity
-                {
-                    Title = "Zakończone wydarzenie 1",
-                    Date = DateTime.UtcNow.AddMonths(-2),
-                    Description = "Wydarzenie sprzed 2 miesięcy",
-                    Category = "Alkohol",
-                    City = "Warszawa",
-                    Venue = "Pub",
-                },
-
-                new Activity
-                {
-                    Title = "Zakończone wydarzenie 2",
-                    Date = DateTime.UtcNow.AddMonths(-1),
-                    Description = "Wydarzenie sprzed miesiąca",
-                    Category = "Kultura",
-                    City = "Warszawa",
-                    Venue = "Kino",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 1",
-                    Date = DateTime.UtcNow.AddMonths(1),
-                    Description = "Wydarzenie za miesiąc",
-                    Category = "Kultura",
-                    City = "Kraków",
-                    Venue = "Teatr",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 2",
-                    Date = DateTime.UtcNow.AddMonths(2),
-                    Description = "Wydarzenie za 2 miesiące",
-                    Category = "Kultura",
-                    City = "Rzeszów",
-                    Venue = "Stadion",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 3",
-                    Date = DateTime.UtcNow.AddMonths(3),
-                    Description = "Wydarzenie za 3 miesiące",
-                    Category = "Podróż",
-                    City = "Poznań",
-                    Venue = "Wyspa Malta",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 4",
-                    Date = DateTime.UtcNow.AddMonths(4),
-                    Description = "Wydarzenie za 4 miesiące",
-                    Category = "Muzyka",
-                    City = "Poznań",
-                    Venue = "Klub Bajka",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 5",
-                    Date = DateTime.UtcNow.AddMonths(5),
-                    Description = "Wydarzenie za 5 miesięcy",
-                    Category = "Jedzenie",
-                    City = "Poznań",
-                    Venue = "Bar",
-                },
-
-                new Activity
-                {
-                    Title = "Nadchodzące wydarzenie 6",
-                    Date = DateTime.UtcNow.AddMonths(6),
-                    Description = "Wydarzenie za 6 miesięcy",
-                    Category = "Film",
-                    City = "Poznań",
-                    Venue = "Kino Zorza",
-                }
-            };
-
-            await context.Activities.AddRangeAsync(activities);
-            await context.SaveChangesAsync();
         }
     }
 }
